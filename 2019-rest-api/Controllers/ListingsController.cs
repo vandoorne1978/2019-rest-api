@@ -16,6 +16,7 @@ namespace _2019_rest_api
         }
 
         [HttpGet]
+        [Route("/listings")]
         public IEnumerable<Listing> Get()
         {
             string[] photos = { "Photo1", "Photo2" };
